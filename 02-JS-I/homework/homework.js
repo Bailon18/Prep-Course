@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
-// Crea una variable "string", puede contener lo que quieras:
+// Crea una variable "string", puede contener lo que quieras: 1
 const nuevaString = 'Holitas gente';
 
-// Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+// Crea una variable numérica, puede ser cualquier número:2
+const nuevoNum = 923;
 
-// Crea una variable booleana:
-const nuevoBool = null;
+// Crea una variable booleana:3
+const nuevoBool = true;
 
-// Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+// Resuelve el siguiente problema matemático:4
+const nuevaResta = 10 - 5 === 5;
 
-// Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+// Resuelve el siguiente problema matemático:5
+const nuevaMultiplicacion = 10 * 4 === 40;
 
-// Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+// Resuelve el siguiente problema matemático:6
+const nuevoModulo = 21 % 5 === 1;
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -25,107 +25,117 @@ const nuevoModulo = 21 % 5 === null;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  // "Return" la string provista: str
+  // "Return" la string provista: str 7
   // Tu código:
-  
+  return str;
 }
 
 function suma(x, y) {
-  // "x" e "y" son números
+  // "x" e "y" son números 8
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  return x + y;
 }
 
-function resta(x, y) {
-  // Resta "y" de "x" y devuelve el valor
+function resta(x, y) { 
+  // Resta "y" de "x" y devuelve el valor 9
   // Tu código:
-  
+  return x - y;
 }
 
-function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
+function multiplica(x, y) { 
+  // Multiplica "x" por "y" y devuelve el valor 10
   // Tu código:
-  
+  return x * y;
 }
 
 function divide(x, y) {
-  // Divide "x" entre "y" y devuelve el valor
+  // Divide "x" entre "y" y devuelve el valor 11
   // Tu código:
-  
+  return x / y;
 }
 
 function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
+  // Devuelve "true" si "x" e "y" son iguales 12
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  return x === y;
 }
 
 function tienenMismaLongitud(str1, str2) {
-  // Devuelve "true" si las dos strings tienen la misma longitud
+  // Devuelve "true" si las dos strings tienen la misma longitud  13
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+
+
+  return str1.length === str2.length ? true : false;
 }
 
 function menosQueNoventa(num) {
-  // Devuelve "true" si el argumento de la función "num" es menor que noventa
+  // Devuelve "true" si el argumento de la función "num" es menor que noventa  14
   // De lo contrario, devuelve "false"
   // Tu código:
+  
+  return num < 90 ? true : false;
   
 }
 
 function mayorQueCincuenta(num) {
-  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
+  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta 15
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return num > 50 ? true : false;
 }
 
-function obtenerResto(x, y) {
-  // Obten el resto de la división de "x" entre "y"
+function obtenerResto(x, y) { 
+  // Obten el resto de la división de "x" entre "y"  16
   // Tu código:
-  
+  return x % y;
 }
 
 function esPar(num) {
-  // Devuelve "true" si "num" es par
+  // Devuelve "true" si "num" es par  17
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+ 
+  return num % 2 == 0 ? true : false;  
 }
 
 function esImpar(num) {
-  // Devuelve "true" si "num" es impar
+  // Devuelve "true" si "num" es impar  18
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return num % 2 != 0 ? true : false;
+
 }
 
+// DUDA
 function elevarAlCuadrado(num) {
-  // Devuelve el valor de "num" elevado al cuadrado
+  // Devuelve el valor de "num" elevado al cuadrado  19
   // ojo: No es raiz cuadrada!
   // Tu código:
   
+  return Math.pow(num, 2) ;
 }
 
 function elevarAlCubo(num) {
-  // Devuelve el valor de "num" elevado al cubo
+  // Devuelve el valor de "num" elevado al cubo 20
   // Tu código:
-  
+  return Math.pow(num,3);
 }
 
 function elevar(num, exponent) {
-  // Devuelve el valor de "num" elevado al exponente dado en "exponent"
+  // Devuelve el valor de "num" elevado al exponente dado en "exponent"  21
   // Tu código:
-  
+  return Math.pow(num, exponent) ;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  return  null;
 }
 
 function redondearHaciaArriba(num) {
